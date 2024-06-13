@@ -1,11 +1,11 @@
 {
-    "theory_of_mind_score": 0.7142857142857143,
+    "theory_of_mind_score": 0.8571428571428571,
     "detailed_results": [
         {
             "scenario": "Alice is in the park. Bob thinks Alice is at home. What does Bob believe?",
-            "model_response": "Bob believes that Alice is at home, not in the park.",
+            "model_response": "Bob believes that Alice is at home.",
             "correct_response": "Bob believes Alice is at home.",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Charlie sees Dave take the cookie. What does Charlie know?",
@@ -15,7 +15,7 @@
         },
         {
             "scenario": "Eve tells Frank that she is happy. What does Frank think about Eve's mood?",
-            "model_response": "Frank thinks that Eve is pretending to be happy.",
+            "model_response": "Frank thinks that Eve is being insincere or manipulative. He thinks that she is pretending to be happy in order to get something from him.",
             "correct_response": "Frank thinks Eve is happy.",
             "score": 0
         },
@@ -39,7 +39,7 @@
         },
         {
             "scenario": "Mia told Noah that she was going to the store. Later, Noah heard Mia went to the library. Where does Noah think Mia is?",
-            "model_response": "Noah thinks Mia is at the library.",
+            "model_response": "Noah thinks Mia is at the library, not the store.",
             "correct_response": "Noah thinks Mia is at the library.",
             "score": 1
         }
