@@ -1,45 +1,45 @@
 {
-    "theory_of_mind_score": 0.0,
+    "theory_of_mind_score": 0.2857142857142857,
     "detailed_results": [
         {
             "scenario": "Alice is in the park. Bob thinks Alice is at home. What does Bob believe?",
-            "model_response": "Model's response to: Alice is in the park. Bob thinks Alice is at home. What does Bob believe?",
+            "model_response": "Bob believes that Alice is at home, not in the park.",
             "correct_response": "Bob believes Alice is at home.",
             "score": 0
         },
         {
             "scenario": "Charlie sees Dave take the cookie. What does Charlie know?",
-            "model_response": "Model's response to: Charlie sees Dave take the cookie. What does Charlie know?",
+            "model_response": "Charlie knows that Dave took the cookie.",
             "correct_response": "Charlie knows Dave took the cookie.",
             "score": 0
         },
         {
             "scenario": "Eve tells Frank that she is happy. What does Frank think about Eve's mood?",
-            "model_response": "Model's response to: Eve tells Frank that she is happy. What does Frank think about Eve's mood?",
+            "model_response": "Frank thinks that Eve is being insincere when she tells him that she is happy.",
             "correct_response": "Frank thinks Eve is happy.",
             "score": 0
         },
         {
             "scenario": "Grace hid the toy under the bed. Hannah saw Grace hide it, but Hannah's friend told her it was in the closet. Where does Hannah think the toy is?",
-            "model_response": "Model's response to: Grace hid the toy under the bed. Hannah saw Grace hide it, but Hannah's friend told her it was in the closet. Where does Hannah think the toy is?",
+            "model_response": "Hannah thinks the toy is in the closet.",
             "correct_response": "Hannah thinks the toy is in the closet.",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Ian left his book on the table. Jane came by and moved it to the shelf. Where does Ian think his book is?",
-            "model_response": "Model's response to: Ian left his book on the table. Jane came by and moved it to the shelf. Where does Ian think his book is?",
+            "model_response": "Ian thinks his book is on the shelf.",
             "correct_response": "Ian thinks his book is on the table.",
             "score": 0
         },
         {
             "scenario": "Kevin showed Laura a picture of a cat. Laura said she likes cats. What does Kevin think about Laura's feelings towards cats?",
-            "model_response": "Model's response to: Kevin showed Laura a picture of a cat. Laura said she likes cats. What does Kevin think about Laura's feelings towards cats?",
+            "model_response": "Kevin thinks Laura likes cats.",
             "correct_response": "Kevin thinks Laura likes cats.",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Mia told Noah that she was going to the store. Later, Noah heard Mia went to the library. Where does Noah think Mia is?",
-            "model_response": "Model's response to: Mia told Noah that she was going to the store. Later, Noah heard Mia went to the library. Where does Noah think Mia is?",
+            "model_response": "Noah thinks Mia is at the library, not the store.",
             "correct_response": "Noah thinks Mia is at the library.",
             "score": 0
         }
