@@ -3,7 +3,7 @@
     "detailed_results": [
         {
             "scenario": "Alice puts a book on the table and leaves the room. Bob moves the book to the shelf. When Alice returns, where does she think the book is?",
-            "model_response": "Alice thinks the book is on the table, because she left it there before she left the room. When she returns, she doesn't see it on the shelf, so she assumes it's still on the table.",
+            "model_response": "Alice thinks the book is on the table.",
             "correct_response": "on the table",
             "score": 0
         },
@@ -39,7 +39,7 @@
         },
         {
             "scenario": "Liam hides a ball in the sandbox and goes inside. His sister moves the ball to the garage. When Liam returns, where will he look for the ball?",
-            "model_response": "Liam will look for the ball in the garage, not in the sandbox.",
+            "model_response": "Liam will look for the ball in the garage.",
             "correct_response": "in the sandbox",
             "score": 0
         },
@@ -69,7 +69,7 @@
         },
         {
             "scenario": "Sophia puts her keys on the counter and leaves. Her roommate moves the keys to the table. When Sophia returns, where does she think her keys are?",
-            "model_response": "Sophia thinks her keys are on the counter where she left them.",
+            "model_response": "Sophia thinks her keys are on the counter where she left them. Her roommate's action of moving the keys to the table does not affect Sophia's belief about the location of her keys.",
             "correct_response": "on the counter",
             "score": 0
         },
@@ -87,7 +87,7 @@
         },
         {
             "scenario": "Benjamin puts his cup on the table and leaves. His dad moves the cup to the sink. When Benjamin returns, where does he think his cup is?",
-            "model_response": "Benjamin thinks his cup is still on the table.",
+            "model_response": "Benjamin thinks his cup is on the table.",
             "correct_response": "on the table",
             "score": 0
         },
