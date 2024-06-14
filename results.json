@@ -3,121 +3,121 @@
     "detailed_results": [
         {
             "scenario": "Alice puts a book on the table and leaves the room. Bob moves the book to the shelf. When Alice returns, where does she think the book is?",
-            "model_response": "Alice thinks the book is on the table, because she left it there before she left the room. When she returns, she does not know that Bob moved it to the shelf.",
+            "model_response": "Alice is sitting on the shelf.",
             "correct_response": "on the table",
             "score": 0
         },
         {
             "scenario": "Tom hides a toy under the bed and goes outside. Jerry moves the toy to the closet. When Tom comes back, where will he look for the toy?",
-            "model_response": "Tom will look for the toy in the closet.",
+            "model_response": "Tom will look for the toy. Jerry will look for the toy.",
             "correct_response": "under the bed",
             "score": 0
         },
         {
             "scenario": "Sarah places her glasses on the desk and leaves. Her sister moves them to the kitchen counter. When Sarah comes back, where does she think her glasses are?",
-            "model_response": "Sarah thinks her glasses are on the kitchen counter.",
+            "model_response": "Sarah's glasses are on the desk. She's not wearing them.",
             "correct_response": "on the desk",
             "score": 0
         },
         {
             "scenario": "John puts his wallet in his jacket pocket and goes to take a shower. Jane moves the wallet to the drawer. When John finishes his shower, where will he look for his wallet?",
-            "model_response": "John will look for his wallet in the drawer, not in his jacket pocket.",
+            "model_response": "John's wallet is in the drawer.",
             "correct_response": "in his jacket pocket",
             "score": 0
         },
         {
             "scenario": "Mary hides a cookie in the cupboard and goes to play. Her brother moves it to the cookie jar. When Mary returns, where does she think the cookie is?",
-            "model_response": "Mary thinks the cookie is in the cupboard.",
+            "model_response": "Mary is hiding a cookie in the cupboard. Her brother moves it to the cookie jar. When Mary returns, where does she think the cookie is?",
             "correct_response": "in the cupboard",
             "score": 0
         },
         {
             "scenario": "Emma places her notebook in her backpack and leaves for lunch. Her friend moves the notebook to the desk. When Emma returns, where does she think the notebook is?",
-            "model_response": "Emma thinks the notebook is on her desk.",
+            "model_response": "Emma's notebook is in her backpack.",
             "correct_response": "in her backpack",
             "score": 0
         },
         {
             "scenario": "Liam hides a ball in the sandbox and goes inside. His sister moves the ball to the garage. When Liam returns, where will he look for the ball?",
-            "model_response": "Liam will look for the ball in the garage.",
+            "model_response": "Liam will look for the ball.",
             "correct_response": "in the sandbox",
             "score": 0
         },
         {
             "scenario": "Olivia puts her phone on the sofa and goes to get a drink. Her brother moves the phone to the table. When Olivia returns, where does she think her phone is?",
-            "model_response": "Olivia thinks her phone is on the sofa.",
+            "model_response": "Olivia's phone is in the kitchen. She's not sure where it is.",
             "correct_response": "on the sofa",
             "score": 0
         },
         {
             "scenario": "Noah places his shoes by the door and goes to his room. His mom moves the shoes to the closet. When Noah returns, where will he look for his shoes?",
-            "model_response": "Noah will look for his shoes in the closet.",
+            "model_response": "He will look for his shoes.",
             "correct_response": "by the door",
             "score": 0
         },
         {
             "scenario": "Ava hides her toy in the toy box and goes to bed. Her dad moves the toy to the shelf. When Ava wakes up, where does she think the toy is?",
-            "model_response": "Ava thinks the toy is on the shelf.",
+            "model_response": "She's hiding it in the toy box.",
             "correct_response": "in the toy box",
             "score": 0
         },
         {
             "scenario": "William places his hat on the chair and goes out. His sister moves the hat to the bed. When William returns, where will he look for his hat?",
-            "model_response": "William will look for his hat on the bed.",
+            "model_response": "William will look for his hat.",
             "correct_response": "on the chair",
             "score": 0
         },
         {
             "scenario": "Sophia puts her keys on the counter and leaves. Her roommate moves the keys to the table. When Sophia returns, where does she think her keys are?",
-            "model_response": "Sophia thinks her keys are on the counter where she left them. Her roommate's action of moving the keys to the table does not affect Sophia's belief about where her keys are.",
+            "model_response": "Sophia's keys are in the table.",
             "correct_response": "on the counter",
             "score": 0
         },
         {
             "scenario": "James hides a letter under his pillow and goes to school. His mom moves it to his desk. When James comes back, where does he think the letter is?",
-            "model_response": "James thinks the letter is under his pillow.",
+            "model_response": "James is hiding a letter under his pillow. When James comes back, where does he think the letter is?",
             "correct_response": "under his pillow",
             "score": 0
         },
         {
             "scenario": "Mia places her bookbag by the door and goes to watch TV. Her brother moves the bookbag to her room. When Mia returns, where does she think her bookbag is?",
-            "model_response": "Mia thinks her bookbag is in her room.",
+            "model_response": "Mia's bookbag is in her bedroom.",
             "correct_response": "by the door",
             "score": 0
         },
         {
             "scenario": "Benjamin puts his cup on the table and leaves. His dad moves the cup to the sink. When Benjamin returns, where does he think his cup is?",
-            "model_response": "Benjamin thinks his cup is on the table.",
+            "model_response": "He's in the sink.",
             "correct_response": "on the table",
             "score": 0
         },
         {
             "scenario": "Lily places her doll in the living room and goes to the kitchen. Her friend moves the doll to the bedroom. When Lily returns, where will she look for her doll?",
-            "model_response": "Lily will look for her doll in the bedroom.",
+            "model_response": "Lily will look for her doll in the living room.",
             "correct_response": "in the living room",
             "score": 0
         },
         {
             "scenario": "Jacob puts his headphones on the bed and leaves. His sister moves them to the desk. When Jacob returns, where does he think his headphones are?",
-            "model_response": "Jacob thinks his headphones are on the bed.",
+            "model_response": "Jacob's headphones are in the desk.",
             "correct_response": "on the bed",
             "score": 0
         },
         {
             "scenario": "Ella hides her candy in the drawer and goes out. Her brother moves it to the cupboard. When Ella returns, where does she think the candy is?",
-            "model_response": "Ella thinks the candy is in the drawer.",
+            "model_response": "Ella is hiding it in the drawer. She goes out to the cupboard and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to the drawer and finds the candy. She goes back to",
             "correct_response": "in the drawer",
             "score": 0
         },
         {
             "scenario": "Lucas places his keys on the bench and goes to the store. His friend moves them to the table. When Lucas returns, where does he think his keys are?",
-            "model_response": "Lucas thinks his keys are on the table.",
+            "model_response": "Lucas is in the store.",
             "correct_response": "on the bench",
             "score": 0
         },
         {
             "scenario": "Amelia hides her pen in her pencil case and goes to lunch. Her friend moves it to her desk. When Amelia returns, where does she think her pen is?",
-            "model_response": "Amelia thinks her pen is on her desk.",
+            "model_response": "She's hiding her pen in her pencil case.",
             "correct_response": "in her pencil case",
             "score": 0
         }
