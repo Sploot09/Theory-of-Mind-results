@@ -27,13 +27,13 @@
         },
         {
             "scenario": "Mary hides a cookie in the cupboard and goes to play. Her brother moves it to the cookie jar. When Mary returns, where does she think the cookie is?",
-            "model_response": "Mary thinks the cookie is in the cupboard, not the cookie jar.",
+            "model_response": "Mary thinks the cookie is in the cupboard.",
             "correct_response": "in the cupboard",
             "score": 0
         },
         {
             "scenario": "Emma places her notebook in her backpack and leaves for lunch. Her friend moves the notebook to the desk. When Emma returns, where does she think the notebook is?",
-            "model_response": "When Emma returns from lunch, she thinks the notebook is on her desk.",
+            "model_response": "Emma thinks the notebook is on her desk.",
             "correct_response": "in her backpack",
             "score": 0
         },
@@ -51,7 +51,7 @@
         },
         {
             "scenario": "Noah places his shoes by the door and goes to his room. His mom moves the shoes to the closet. When Noah returns, where will he look for his shoes?",
-            "model_response": "Noah will look for his shoes in the closet, not by the door.",
+            "model_response": "Noah will look for his shoes in the closet.",
             "correct_response": "by the door",
             "score": 0
         },
@@ -63,13 +63,13 @@
         },
         {
             "scenario": "William places his hat on the chair and goes out. His sister moves the hat to the bed. When William returns, where will he look for his hat?",
-            "model_response": "William will look for his hat on the bed, not on the chair.",
+            "model_response": "William will look for his hat on the bed.",
             "correct_response": "on the chair",
             "score": 0
         },
         {
             "scenario": "Sophia puts her keys on the counter and leaves. Her roommate moves the keys to the table. When Sophia returns, where does she think her keys are?",
-            "model_response": "Sophia thinks her keys are on the counter.",
+            "model_response": "Sophia thinks her keys are on the counter where she left them. When her roommate moved the keys to the table, Sophia is not aware of it and will continue to look for her keys on the counter.",
             "correct_response": "on the counter",
             "score": 0
         },
