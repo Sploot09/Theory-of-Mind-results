@@ -9,7 +9,7 @@
         },
         {
             "scenario": "Tom hides a toy under the bed and goes outside. Jerry moves the toy to the closet. When Tom comes back, where will he look for the toy?",
-            "model_response": "Tom will look for the toy in the closet.",
+            "model_response": "Tom will look for the toy in the closet, not under the bed.",
             "correct_response": "under the bed",
             "score": 0
         },
@@ -69,7 +69,7 @@
         },
         {
             "scenario": "Sophia puts her keys on the counter and leaves. Her roommate moves the keys to the table. When Sophia returns, where does she think her keys are?",
-            "model_response": "Sophia thinks her keys are on the counter where she left them. Her roommate's action of moving the keys to the table does not affect Sophia's belief about the location of her keys.",
+            "model_response": "Sophia thinks her keys are on the counter where she left them. Her roommate's action of moving the keys to the table does not affect Sophia's belief about where her keys are.",
             "correct_response": "on the counter",
             "score": 0
         },
