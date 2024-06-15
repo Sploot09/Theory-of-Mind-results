@@ -1,15 +1,15 @@
 {
-    "theory_of_mind_score": 0.0,
+    "theory_of_mind_score": 0.55,
     "detailed_results": [
         {
             "scenario": "Alice puts a book on the table and leaves the room. Bob moves the book to the shelf. When Alice returns, where does she think the book is?",
             "model_response": "Alice thinks the book is on the table.",
             "correct_response": "on the table",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Tom hides a toy under the bed and goes outside. Jerry moves the toy to the closet. When Tom comes back, where will he look for the toy?",
-            "model_response": "Tom will look for the toy in the closet, not under the bed.",
+            "model_response": "Tom will look for the toy in the closet, because Jerry moved it there.",
             "correct_response": "under the bed",
             "score": 0
         },
@@ -23,13 +23,13 @@
             "scenario": "John puts his wallet in his jacket pocket and goes to take a shower. Jane moves the wallet to the drawer. When John finishes his shower, where will he look for his wallet?",
             "model_response": "John will look for his wallet in the drawer, not in his jacket pocket.",
             "correct_response": "in his jacket pocket",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Mary hides a cookie in the cupboard and goes to play. Her brother moves it to the cookie jar. When Mary returns, where does she think the cookie is?",
             "model_response": "Mary thinks the cookie is in the cupboard.",
             "correct_response": "in the cupboard",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Emma places her notebook in her backpack and leaves for lunch. Her friend moves the notebook to the desk. When Emma returns, where does she think the notebook is?",
@@ -39,21 +39,21 @@
         },
         {
             "scenario": "Liam hides a ball in the sandbox and goes inside. His sister moves the ball to the garage. When Liam returns, where will he look for the ball?",
-            "model_response": "Liam will look for the ball in the garage.",
+            "model_response": "Liam will look for the ball in the garage, not in the sandbox.",
             "correct_response": "in the sandbox",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Olivia puts her phone on the sofa and goes to get a drink. Her brother moves the phone to the table. When Olivia returns, where does she think her phone is?",
             "model_response": "Olivia thinks her phone is on the sofa.",
             "correct_response": "on the sofa",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Noah places his shoes by the door and goes to his room. His mom moves the shoes to the closet. When Noah returns, where will he look for his shoes?",
-            "model_response": "Noah will look for his shoes in the closet.",
+            "model_response": "Noah will look for his shoes in the closet, not by the door.",
             "correct_response": "by the door",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Ava hides her toy in the toy box and goes to bed. Her dad moves the toy to the shelf. When Ava wakes up, where does she think the toy is?",
@@ -69,15 +69,15 @@
         },
         {
             "scenario": "Sophia puts her keys on the counter and leaves. Her roommate moves the keys to the table. When Sophia returns, where does she think her keys are?",
-            "model_response": "Sophia thinks her keys are on the counter where she left them. Her roommate's action of moving the keys to the table does not affect Sophia's belief about where her keys are.",
+            "model_response": "Sophia thinks her keys are on the counter.",
             "correct_response": "on the counter",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "James hides a letter under his pillow and goes to school. His mom moves it to his desk. When James comes back, where does he think the letter is?",
             "model_response": "James thinks the letter is under his pillow.",
             "correct_response": "under his pillow",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Mia places her bookbag by the door and goes to watch TV. Her brother moves the bookbag to her room. When Mia returns, where does she think her bookbag is?",
@@ -89,7 +89,7 @@
             "scenario": "Benjamin puts his cup on the table and leaves. His dad moves the cup to the sink. When Benjamin returns, where does he think his cup is?",
             "model_response": "Benjamin thinks his cup is on the table.",
             "correct_response": "on the table",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Lily places her doll in the living room and goes to the kitchen. Her friend moves the doll to the bedroom. When Lily returns, where will she look for her doll?",
@@ -101,13 +101,13 @@
             "scenario": "Jacob puts his headphones on the bed and leaves. His sister moves them to the desk. When Jacob returns, where does he think his headphones are?",
             "model_response": "Jacob thinks his headphones are on the bed.",
             "correct_response": "on the bed",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Ella hides her candy in the drawer and goes out. Her brother moves it to the cupboard. When Ella returns, where does she think the candy is?",
             "model_response": "Ella thinks the candy is in the drawer.",
             "correct_response": "in the drawer",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Lucas places his keys on the bench and goes to the store. His friend moves them to the table. When Lucas returns, where does he think his keys are?",
