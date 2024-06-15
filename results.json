@@ -1,5 +1,5 @@
 {
-    "theory_of_mind_score": 0.55,
+    "theory_of_mind_score": 0.5,
     "detailed_results": [
         {
             "scenario": "Alice puts a book on the table and leaves the room. Bob moves the book to the shelf. When Alice returns, where does she think the book is?",
@@ -9,9 +9,9 @@
         },
         {
             "scenario": "Tom hides a toy under the bed and goes outside. Jerry moves the toy to the closet. When Tom comes back, where will he look for the toy?",
-            "model_response": "Tom will look for the toy in the closet, because Jerry moved it there.",
+            "model_response": "Tom will look for the toy in the closet, not under the bed.",
             "correct_response": "under the bed",
-            "score": 0
+            "score": 1
         },
         {
             "scenario": "Sarah places her glasses on the desk and leaves. Her sister moves them to the kitchen counter. When Sarah comes back, where does she think her glasses are?",
@@ -27,7 +27,7 @@
         },
         {
             "scenario": "Mary hides a cookie in the cupboard and goes to play. Her brother moves it to the cookie jar. When Mary returns, where does she think the cookie is?",
-            "model_response": "Mary thinks the cookie is in the cupboard.",
+            "model_response": "Mary thinks the cookie is in the cupboard, not in the cookie jar where her brother moved it.",
             "correct_response": "in the cupboard",
             "score": 1
         },
@@ -39,9 +39,9 @@
         },
         {
             "scenario": "Liam hides a ball in the sandbox and goes inside. His sister moves the ball to the garage. When Liam returns, where will he look for the ball?",
-            "model_response": "Liam will look for the ball in the garage, not in the sandbox.",
+            "model_response": "Liam will look for the ball in the garage.",
             "correct_response": "in the sandbox",
-            "score": 1
+            "score": 0
         },
         {
             "scenario": "Olivia puts her phone on the sofa and goes to get a drink. Her brother moves the phone to the table. When Olivia returns, where does she think her phone is?",
@@ -51,9 +51,9 @@
         },
         {
             "scenario": "Noah places his shoes by the door and goes to his room. His mom moves the shoes to the closet. When Noah returns, where will he look for his shoes?",
-            "model_response": "Noah will look for his shoes in the closet, not by the door.",
+            "model_response": "Noah will look for his shoes in the closet.",
             "correct_response": "by the door",
-            "score": 1
+            "score": 0
         },
         {
             "scenario": "Ava hides her toy in the toy box and goes to bed. Her dad moves the toy to the shelf. When Ava wakes up, where does she think the toy is?",
@@ -87,7 +87,7 @@
         },
         {
             "scenario": "Benjamin puts his cup on the table and leaves. His dad moves the cup to the sink. When Benjamin returns, where does he think his cup is?",
-            "model_response": "Benjamin thinks his cup is on the table.",
+            "model_response": "Benjamin thinks his cup is still on the table.",
             "correct_response": "on the table",
             "score": 1
         },
